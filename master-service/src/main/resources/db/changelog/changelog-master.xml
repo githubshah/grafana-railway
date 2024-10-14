@@ -1,0 +1,24 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <include file="db/changelog/changes/ddl/schema.sql"/>
+    <include file="db/changelog/changes/ddl/create_table.sql"/>
+    <include file="db/changelog/changes/dml/train.sql"/>
+    <include file="db/changelog/changes/dml/coach.sql"/>
+    <include file="db/changelog/changes/dml/seat.sql"/>
+    <include file="db/changelog/changes/dml/seat_type.sql"/>
+    <include file="db/changelog/changes/dml/station.sql"/>
+    <include file="db/changelog/changes/dml/fare_policy.sql"/>
+    <include file="db/changelog/changes/dml/route.sql"/>
+    <include file="db/changelog/changes/dml/train_coach_price.sql"/>
+
+    <include file="db/changelog/changes/dml/seat_type_mapping.sql"/>
+    <include file="db/changelog/changes/dml/train_route_mapping.sql"/>
+    <include file="db/changelog/changes/dml/coach_seat_mapping.sql"/>
+    <include file="db/changelog/changes/dml/train_coach_mapping.sql"/>
+
+    <!-- Add more changeSets as needed -->
+</databaseChangeLog>

@@ -1,0 +1,4 @@
+INSERT INTO master_fare_policy (id, coach_percentage_filled, increase_price_by, created_on, created_by, modified_on, modified_by) VALUES(1, 20, 10, NOW(), 'ADMIN', NOW(), 'ADMIN');
+INSERT INTO master_fare_policy (id, coach_percentage_filled, increase_price_by, created_on, created_by, modified_on, modified_by) VALUES(2, 30, 12, NOW(), 'ADMIN', NOW(), 'ADMIN');
+INSERT INTO master_fare_policy (id, coach_percentage_filled, increase_price_by, created_on, created_by, modified_on, modified_by) VALUES(3, 35, 15, NOW(), 'ADMIN', NOW(), 'ADMIN');
+INSERT INTO master_fare_policy (id, coach_percentage_filled, increase_price_by, created_on, created_by, modified_on, modified_by) VALUES(4, 40, 18, NOW(), 'ADMIN', NOW(), 'ADMIN');

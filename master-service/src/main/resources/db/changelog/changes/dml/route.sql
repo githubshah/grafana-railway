@@ -1,0 +1,6 @@
+insert into master_route("id","name", "source_station_id","destination_station_id","created_by" ,"created_on" ,"modified_by" ,"modified_on") values(1, 'Kanpur-To-Delhi', 1,2, 'ADMIN', NOW(), 'ADMIN', NOW());
+insert into master_route("id","name", "source_station_id","destination_station_id","created_by" ,"created_on" ,"modified_by" ,"modified_on") values(2, 'Delhi-To-Kanpur', 2,1,'ADMIN', NOW(), 'ADMIN', NOW());
+insert into master_route("id","name", "source_station_id","destination_station_id","created_by" ,"created_on" ,"modified_by" ,"modified_on") values(3, 'Delhi-To-Gurugram', 2,3,'ADMIN', NOW(), 'ADMIN', NOW());
+insert into master_route("id","name", "source_station_id","destination_station_id","created_by" ,"created_on" ,"modified_by" ,"modified_on") values(4, 'Gurugram-To-Delhi', 3,2,'ADMIN', NOW(), 'ADMIN', NOW());
+insert into master_route("id","name", "source_station_id","destination_station_id","created_by" ,"created_on" ,"modified_by" ,"modified_on") values(5, 'Gurugram-To-Chandigarh', 3,4,'ADMIN', NOW(), 'ADMIN', NOW());
+insert into master_route("id","name", "source_station_id","destination_station_id","created_by" ,"created_on" ,"modified_by" ,"modified_on") values(6, 'Chandigarh-To-Gurugram', 4,3,'ADMIN', NOW(), 'ADMIN', NOW());

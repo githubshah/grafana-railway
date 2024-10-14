@@ -1,0 +1,4 @@
+insert into master_station("id","name", "created_by" ,"created_on" ,"modified_by" ,"modified_on") values(1, 'Kanpur', 'ADMIN', NOW(), 'ADMIN', NOW());
+insert into master_station("id","name", "created_by" ,"created_on" ,"modified_by" ,"modified_on") values(2, 'Delhi', 'ADMIN', NOW(), 'ADMIN', NOW());
+insert into master_station("id","name", "created_by" ,"created_on" ,"modified_by" ,"modified_on") values(3, 'Gurugram', 'ADMIN', NOW(), 'ADMIN', NOW());
+insert into master_station("id","name", "created_by" ,"created_on" ,"modified_by" ,"modified_on") values(4, 'Chandigarh', 'ADMIN', NOW(), 'ADMIN', NOW());

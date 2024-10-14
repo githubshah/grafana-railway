@@ -1,0 +1,5 @@
+insert into master_seat_type("id","seat_type", "seat_code", "created_by" ,"created_on" ,"modified_by" ,"modified_on") values(1, 'LowerBerth', 'LB', 'ADMIN', NOW(), 'ADMIN', NOW());
+insert into master_seat_type("id","seat_type", "seat_code", "created_by" ,"created_on" ,"modified_by" ,"modified_on") values(2, 'MiddleBerth', 'MB', 'ADMIN', NOW(), 'ADMIN', NOW());
+insert into master_seat_type("id","seat_type", "seat_code", "created_by" ,"created_on" ,"modified_by" ,"modified_on") values(3, 'UpperBerth', 'UB', 'ADMIN', NOW(), 'ADMIN', NOW());
+insert into master_seat_type("id","seat_type", "seat_code", "created_by" ,"created_on" ,"modified_by" ,"modified_on") values(4, 'SideLowerBerth', 'SLB', 'ADMIN', NOW(), 'ADMIN', NOW());
+insert into master_seat_type("id","seat_type", "seat_code", "created_by" ,"created_on" ,"modified_by" ,"modified_on") values(5, 'SideUpperBerth', 'SUB', 'ADMIN', NOW(), 'ADMIN', NOW());
